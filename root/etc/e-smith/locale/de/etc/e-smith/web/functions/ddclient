@@ -1,0 +1,146 @@
+<lexicon lang="de">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Erstellen, Löschen und Ändern der Einstellungen zur Veröffentlichung virtueller Domänen</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans>Virtuelle Domäne im Internet veröffentlichen.</trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Keine virtuellen Domäne im System vorhanden.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>Aktuelle Liste der virtuellen Domänen</trans>
+    </entry>
+    <entry>
+        <base>PUBLICATION</base>
+        <trans>Veröffentlichung</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>Primäre Seite</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>{$content} i-bay</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Neue Virtuelle Domäne im Internet veröffentlichen</trans>
+    </entry>
+    <entry>
+        <base>SERVERS_LABEL</base>
+        <trans>Auswahl DNS-Providerdienst</trans>
+    </entry>
+    <entry>
+        <base>MX</base>
+        <trans>MX schreiben</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>Benutzer</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_LABEL</base>
+        <trans>Passwort</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>Für die Webseite können Sie entweder die primäre Seite oder ein i-bay auswählen.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>FEHLER: Ungültiges oder fehlendes Zeichen im Domänen-Namen {$domainName}. Der Domänen-Name darf nur Buchstaben, Nummern, Punkte oder Bindestriche enthalten. Neue Domäne wurde nicht erstellt.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>FEHLER: Ungültiges oder fehlendes Zeichen in der Domänenbeschreibung {$domainDesc}. Neue Domäne wurde nicht erstellt.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>FEHLER: Domäne {$domainName} ist bereits vorhanden. Neue Domäne wurde nicht erstellt.</trans>
+    </entry>
+    <entry>
+        <base>RESERVED_SECURE_DOMAIN_ERROR</base>
+        <trans>Fehler: Der Domain-Name {$domainName} ist reserviert, um einen abgesicherten Webserver für die virtuelle Domäne {$key} bereitzustellen. Die Domain konnte nicht veröffentlicht werden.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>Fehler: Der Domain-Name {$domainName} ist der System-Domain-Name. Eine virtuelle Domain darf nicht den identischen Namen wie den System-Domain-Namen haben. Die Domain konnte nicht veröffentlicht werden.</trans>
+    </entry>
+    <entry>
+        <base>RESERVED_SECURE_SYSTEM_DOMAIN_ERROR</base>
+        <trans>Fehler: Der Domain-Name {$domainName} ist reserviert, um einen abgesicherten Webserver für die virtuelle Domäne {$key} bereitzustellen. Die Domain konnte nicht veröffentlicht werden.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Die Domäne {$domainName} wurde erfolgreich bei {$dns} veröffentlicht.</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>Virtuelle Domäne ändern</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>FEHLER: {$domainName} ist keine existierende Domäne.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Die Domain {$domainName} wurde erfolgreich bei {$dns} veröffentlicht.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Löschen der veröffentlichten virtuellen Domain</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> You are about to remove the publication of domain {$domain} ({$domainDesc}) on {$dns}. </p> <p> <b>Are you sure you wish to remove this domain's publication ?</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>Fehler: Interner Fehler beim Löschen der veröffentlichten Domain {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Die Domain {$domain} wurde erfolgreich bei {$dns} gelöscht.</trans>
+    </entry>
+    <entry>
+        <base>DYNDNS1</base>
+        <trans>dyndns.org Dynamische Adressen</trans>
+    </entry>
+    <entry>
+        <base>DYNDNS2</base>
+        <trans>dyndns.org Statische Adressen</trans>
+    </entry>
+    <entry>
+        <base>DYNDNS3</base>
+        <trans>dyndns.org Spezielle Adressen</trans>
+    </entry>
+    <entry>
+        <base>ZONEDIT</base>
+        <trans>ZoneEdit (zoneedit.com)</trans>
+    </entry>
+    <entry>
+        <base>EASYDNS</base>
+        <trans>EasyDNS (easydns.com)</trans>
+    </entry>
+    <entry>
+        <base>HAMMER</base>
+        <trans>Hammernode (hn.org) Dynamische Adressen</trans>
+    </entry>
+    <entry>
+        <base>DSLREPORTS</base>
+        <trans>dslreports.com dynamic-host monitoring</trans>
+    </entry>
+    <entry>
+        <base>EURODYNDNS</base>
+        <trans>eurodyndns.org Dynamische Adressen</trans>
+    </entry>
+    <entry>
+        <base>ddclient</base>
+        <trans>Domänen veröffentlichen</trans>
+    </entry>
+</lexicon>

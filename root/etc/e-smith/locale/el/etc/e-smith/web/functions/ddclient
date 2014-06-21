@@ -1,0 +1,146 @@
+<lexicon lang="el">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Create, remove or change the publication of virtual domains</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans>virtual domain for publication on the net.</trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>There are no virtual domains in the system.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>Current list of virtual domains</trans>
+    </entry>
+    <entry>
+        <base>PUBLICATION</base>
+        <trans>publication</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>πρωτεύων τόπος</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>{$content} i-bay</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Create a new publication virtual domain</trans>
+    </entry>
+    <entry>
+        <base>SERVERS_LABEL</base>
+        <trans>where to publish</trans>
+    </entry>
+    <entry>
+        <base>MX</base>
+        <trans>record MX</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>login to publish</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_LABEL</base>
+        <trans>password to publish</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>Ως περιεχόμενο ιστοτόπου, μπορείτε να επιλέξετε τον πρωτεύοντα ιστότοπο ή οποιοδήποτε i-bay.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>Σφάλμα: μη-αναμενόμενοι ή ελλείποντες χαρακτήρες στην ονομασία τομέα {$domainName}. Η ονομασία τομέα πρέπει να περιλαμβάνει ένα ή περισσότερα γράμματα, αριθμούς, τελείες και παύλες. Δεν δημιουργήθηκε νέος τομέας.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>Σφάλμα: μη-αναμενόμενοι ή ελλείποντες χαρακτήρες στην περιγραφή του τομέα {$domainDesc}. Δεν δημιουργήθηκε νέος τομέας.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>Σφάλμα: ο τομέας {$domainName} χρησιμοποιείται ήδη. Δεν δημιουργήθηκε νέος τομέας.</trans>
+    </entry>
+    <entry>
+        <base>RESERVED_SECURE_DOMAIN_ERROR</base>
+        <trans>Error: domain {$domainName} is reserved to provide a secured webserver for the virtual domain {$key}. Did not create new domain.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>Error: domain {$domainName} is your system domain name. You cannot have a virtual domain with the same name. Did not create new domain.</trans>
+    </entry>
+    <entry>
+        <base>RESERVED_SECURE_SYSTEM_DOMAIN_ERROR</base>
+        <trans>Error: domain {$domainName} is reserved to provide a secured webserver for your system domain name {$systemDomain}. Did not create new domain.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Successfully publication domain {$domainName} on {$dns}.</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>Modify virtual domain</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>Σφάλμα: Ο {$domainName} δεν είναι υφιστάμενος τομέας.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Successfully modified the publication {$domainName} on {$dns}.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Remove publication of virtual domain</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> You are about to remove the publication of domain {$domain} ({$domainDesc}) on {$dns}. </p> <p> <b>Are you sure you wish to remove this domain's publication ?</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>Error: internal failure while removing publictaion of {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Successfully deleted publication of {$domain} on {$dns}.</trans>
+    </entry>
+    <entry>
+        <base>DYNDNS1</base>
+        <trans>dyndns.org dynamic addresses</trans>
+    </entry>
+    <entry>
+        <base>DYNDNS2</base>
+        <trans>dyndns.org static addresses</trans>
+    </entry>
+    <entry>
+        <base>DYNDNS3</base>
+        <trans>dyndns.org custom addresses</trans>
+    </entry>
+    <entry>
+        <base>ZONEDIT</base>
+        <trans>ZoneEdit (zoneedit.com)</trans>
+    </entry>
+    <entry>
+        <base>EASYDNS</base>
+        <trans>EasyDNS (easydns.com)</trans>
+    </entry>
+    <entry>
+        <base>HAMMER</base>
+        <trans>Hammernode (hn.org) dynamic addresses</trans>
+    </entry>
+    <entry>
+        <base>DSLREPORTS</base>
+        <trans>dslreports.com dynamic-host monitoring</trans>
+    </entry>
+    <entry>
+        <base>EURODYNDNS</base>
+        <trans>eurodyndns.org dynamic adresses</trans>
+    </entry>
+    <entry>
+        <base>ddclient</base>
+        <trans>Dynamic Clients</trans>
+    </entry>
+</lexicon>

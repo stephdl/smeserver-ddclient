@@ -1,0 +1,3 @@
+
+# [ -x /etc/ppp/ddclient_ip-up.local ] && /etc/ppp/ddclient_ip-up.local "$@"
+[ -x /etc/rc.d/init.d/ddclient ] && /etc/rc.d/init.d/ddclient restart

@@ -1,0 +1,146 @@
+<lexicon lang="da">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Oprette, fjerne eller ændre på offentliggørelsen af virtuelle domæner</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans>virtuelt domæne til offentliggørelse på nettet.</trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Der er ikke nogen virtuelle domæner på serveren.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>Aktuel liste over virtuelle domæner</trans>
+    </entry>
+    <entry>
+        <base>PUBLICATION</base>
+        <trans>offentliggørelse</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>primært websted</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>{$content} i-bay</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Oprette en ny offentliggørelse af et virtuelt domæne</trans>
+    </entry>
+    <entry>
+        <base>SERVERS_LABEL</base>
+        <trans>placering af offentliggørelsen</trans>
+    </entry>
+    <entry>
+        <base>MX</base>
+        <trans>record MX</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>login til offentliggørelsen</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_LABEL</base>
+        <trans>adgangskode til offentliggørelsen</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>Som kilde for websideindholdet kan du vælge enten serverens primære webside eller en i-bay.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>Fejl: uventede eller manglende tegn i domænenavn {$domainName}. Domænenavnet skal indeholde et eller flere bogstaver, tal, punktum eller bindestreger. Domænet blev ikke oprettet.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>Fejl: uventede eller manglende tegn i domænebeskrivelsen {$domainDesc}. Domænet blev ikke oprettet.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>Fejl: domænenavn {$domainName} er allerede i brug. Domænet blev ikke oprettet.</trans>
+    </entry>
+    <entry>
+        <base>RESERVED_SECURE_DOMAIN_ERROR</base>
+        <trans>Fejl: Domænenavn {$domainName} er reserveret til sikker webserver for det virtuelle domænenavn {$key}. Domænet blev ikke oprettet.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>Fejl: Domænet {$domainName} er dit systems domænenavn. Du kan ikke have et virtuelt domæne med det samme navn. Domænet blev ikke oprettet.</trans>
+    </entry>
+    <entry>
+        <base>RESERVED_SECURE_SYSTEM_DOMAIN_ERROR</base>
+        <trans>Fejl: Domænenavn {$domainName} er reserveret til sikker webserver for dit systems domænenavn {$systemDomain}. Domænet blev ikke oprettet.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Domænenavnet {$domainName} er offentligtgjort på {$dns}.</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>Rediger virtuelt domæne</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>Fejl: {$domainName} findes ikke.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Ændrede offentliggørelsen af {$domainName} på {$dns}.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Fjerne offentliggørelsen af virtuelt domæner</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> You are about to remove the publication of domain {$domain} ({$domainDesc}) on {$dns}. </p> <p> <b>Are you sure you wish to remove this domain's publication ?</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>Fejl: intern fejl under fjernelse af offentliggørelsen for {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Slettede offentliggørelsen af {$domain} på {$dns}.</trans>
+    </entry>
+    <entry>
+        <base>DYNDNS1</base>
+        <trans>dyndns.org dynamiske adresser</trans>
+    </entry>
+    <entry>
+        <base>DYNDNS2</base>
+        <trans>dyndns.org statiske adresser</trans>
+    </entry>
+    <entry>
+        <base>DYNDNS3</base>
+        <trans>dyndns.org valgte adresser</trans>
+    </entry>
+    <entry>
+        <base>ZONEDIT</base>
+        <trans>ZoneEdit (zoneedit.com)</trans>
+    </entry>
+    <entry>
+        <base>EASYDNS</base>
+        <trans>EasyDNS (easydns.com)</trans>
+    </entry>
+    <entry>
+        <base>HAMMER</base>
+        <trans>Hammernode (hn.org) dynamiske adresser</trans>
+    </entry>
+    <entry>
+        <base>DSLREPORTS</base>
+        <trans>dslreports.com dynamisk værtsovervågning</trans>
+    </entry>
+    <entry>
+        <base>EURODYNDNS</base>
+        <trans>eurodyndns.org dynamiske adresser</trans>
+    </entry>
+    <entry>
+        <base>ddclient</base>
+        <trans>Dynamiske klienter</trans>
+    </entry>
+</lexicon>

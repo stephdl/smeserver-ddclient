@@ -1,0 +1,146 @@
+<lexicon lang="sv">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Skapa, radera eller ändra publiceringen av viruella domäner</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans>virtuell domän för publicering på Internet.</trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Det finns inga virtuella domäner på systemet.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>Uppdaterad lista över viruella domäner</trans>
+    </entry>
+    <entry>
+        <base>PUBLICATION</base>
+        <trans>publicering</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>primär plats</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>{$content} i-bay</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Skapa en ny publicering av en viruell domän</trans>
+    </entry>
+    <entry>
+        <base>SERVERS_LABEL</base>
+        <trans>var den publiceras</trans>
+    </entry>
+    <entry>
+        <base>MX</base>
+        <trans>MX post</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>inloggning för publicering</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_LABEL</base>
+        <trans>lösenord för publicering</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>Som webbplats kan du välja den primära webbplatsen eller valfri i-bay för innehåll.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>Fel: Ogiltigt eller saknat tecken i domännamnet {$domainName}. Domännamnet måste innehålla en eller flera bokstäver, siffror, punkter eller minustecken. Skapade inte en ny domän.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>Fel: Ogiltigt eller saknat tecken i domänbeskrivningen {$domainDesc}. Skapade inte en ny domän.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>Fel: Domänen {$domainName} används redan. Skapade inte en ny domän.</trans>
+    </entry>
+    <entry>
+        <base>RESERVED_SECURE_DOMAIN_ERROR</base>
+        <trans>Fel: Domänen {$domainName} är reserverad för att ge en säker webbserver för den virtuella domänen {$key}. Skapade inte en ny domän.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>Fel: Domänen {$domainName} är ditt systems domännamn. Du kan inte ha en virtuell domän med samma namn. Skapade inte en ny domän.</trans>
+    </entry>
+    <entry>
+        <base>RESERVED_SECURE_SYSTEM_DOMAIN_ERROR</base>
+        <trans>Fel: Domänen {$domainName} är reserverad för att ge en säker webbserver för ditt systems domännamn {$systemDomain}. Skapade inte en ny domän.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Publicerade domän {$domainName} på {$dns}.</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>Ändra viruell domän</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>Fel: {$domainName} är inte en existerande domän.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Ändrade publicerad {$domainName} på {$dns}.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Ta bort publicering av viruell domän</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> You are about to remove the publication of domain {$domain} ({$domainDesc}) on {$dns}. </p> <p> <b>Are you sure you wish to remove this domain's publication ?</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>Fel: Internt fel vid bortagning av publiceringen av {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Raderade publiceringen av {$domain} på{$dns}.</trans>
+    </entry>
+    <entry>
+        <base>DYNDNS1</base>
+        <trans>dyndns.org dynamisk adress</trans>
+    </entry>
+    <entry>
+        <base>DYNDNS2</base>
+        <trans>dyndns.org statisk adress</trans>
+    </entry>
+    <entry>
+        <base>DYNDNS3</base>
+        <trans>dyndns.org egen adress</trans>
+    </entry>
+    <entry>
+        <base>ZONEDIT</base>
+        <trans>ZoneEdit (zoneedit.com)</trans>
+    </entry>
+    <entry>
+        <base>EASYDNS</base>
+        <trans>EasyDNS (easydns.com)</trans>
+    </entry>
+    <entry>
+        <base>HAMMER</base>
+        <trans>Hammernode (hn.org) dynamisk adress</trans>
+    </entry>
+    <entry>
+        <base>DSLREPORTS</base>
+        <trans>dslreports.com dynamisk-värdkontroll</trans>
+    </entry>
+    <entry>
+        <base>EURODYNDNS</base>
+        <trans>eurodyndns.org dynamisk adress</trans>
+    </entry>
+    <entry>
+        <base>ddclient</base>
+        <trans>Dynamiska klienter</trans>
+    </entry>
+</lexicon>

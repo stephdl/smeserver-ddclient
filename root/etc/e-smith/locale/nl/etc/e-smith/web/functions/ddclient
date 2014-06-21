@@ -1,0 +1,146 @@
+<lexicon lang="nl">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Aanmaken, verwijderen of wijzigen van de virtuele domein publicaties</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans>virtueel domein voor publicatie op het net.</trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Er zijn geen virtuele domeinen op dit systeem.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>Huidige lijst van virtuele domeinen</trans>
+    </entry>
+    <entry>
+        <base>PUBLICATION</base>
+        <trans>publicatie</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>primaire site</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>{$content} informatie-baai</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Nieuw virtueel domein publicatie aanmaken</trans>
+    </entry>
+    <entry>
+        <base>SERVERS_LABEL</base>
+        <trans>Waar te publiceren</trans>
+    </entry>
+    <entry>
+        <base>MX</base>
+        <trans>MX record</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>login om te publiceren</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_LABEL</base>
+        <trans>wachtwoord om te publiceren</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>Voor de website, mag u uw primaire website als inhoud kiezen of een van de informatie-baaien.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>Fout: Onverwachte of missende tekens in domeinnaam {$domainName}. De domeinnaam moet uit een of meer letters, cijfers, punten of koppeltekens bestaan. Het nieuw domein is niet toegevoegd.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>Fout: Onverwachte of missende tekens in de domein beschrijving {$domainDesc}. Het nieuw domein is niet toegevoegd.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>Fout: domein {$domainName} is reeds in gebruik. Het nieuw domein is niet toegevoegd.</trans>
+    </entry>
+    <entry>
+        <base>RESERVED_SECURE_DOMAIN_ERROR</base>
+        <trans>Fout: domein {$domainName} is gereserveerd voor een beveiligde webserver voor virtueel domein {$key}. Het nieuw domein is niet toegevoegd.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>Fout: domein {$domainName} is uw systeem domeinnaam. U kunt geen virtueel domein hebben met dezelfde naam. Het nieuw domein is niet toegevoegd.</trans>
+    </entry>
+    <entry>
+        <base>RESERVED_SECURE_SYSTEM_DOMAIN_ERROR</base>
+        <trans>Fout: domein {$domainName} is gereserveerd voor een beveiligde webserver voor uw systeem domeinnaam {$systemDomain}. Het nieuw domein is niet toegevoegd.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Domein {$domainName} is met succes gepubliceerd op {$dns}.</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>Virtueel domein wijzigen</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>Fout: {$domainName} is geen bestaand domein.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Publicatie van domein {$domainName} is met succes gewijzigd op {$dns}.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Publicatie van virtueel domein verwijderen</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> You are about to remove the publication of domain {$domain} ({$domainDesc}) on {$dns}. </p> <p> <b>Are you sure you wish to remove this domain's publication ?</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>Fout: interne fout bij het verwijderen van de publicatie van {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Publicatie van {$domain} is met succes verwijderd uit {dns}.</trans>
+    </entry>
+    <entry>
+        <base>DYNDNS1</base>
+        <trans>dyndns.org dynamische adressen</trans>
+    </entry>
+    <entry>
+        <base>DYNDNS2</base>
+        <trans>dyndns.org statische adressen</trans>
+    </entry>
+    <entry>
+        <base>DYNDNS3</base>
+        <trans>dyndns.org speciale adressen</trans>
+    </entry>
+    <entry>
+        <base>ZONEDIT</base>
+        <trans>ZoneEdit (zoneedit.com)</trans>
+    </entry>
+    <entry>
+        <base>EASYDNS</base>
+        <trans>EasyDNS (easydns.com)</trans>
+    </entry>
+    <entry>
+        <base>HAMMER</base>
+        <trans>Hammernode (hn.org) dynamische adressen</trans>
+    </entry>
+    <entry>
+        <base>DSLREPORTS</base>
+        <trans>dslreports.com dynamische-host monitoren</trans>
+    </entry>
+    <entry>
+        <base>EURODYNDNS</base>
+        <trans>eurodyndns.org dynamische adressen</trans>
+    </entry>
+    <entry>
+        <base>ddclient</base>
+        <trans>Dynamische Agenten</trans>
+    </entry>
+</lexicon>

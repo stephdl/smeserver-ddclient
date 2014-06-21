@@ -1,0 +1,146 @@
+<lexicon lang="fr">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Créer, effacer ou modifier la publication des domaines virtuels</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans>Domaines virtuels pour la publication sur le net.</trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>il n'y a aucun domaines virtuels dans le système.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>Liste courante des domaines virtuels</trans>
+    </entry>
+    <entry>
+        <base>PUBLICATION</base>
+        <trans>publication</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>site primaire</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>Ibaie {$content}</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Création d'une nouvelle publication</trans>
+    </entry>
+    <entry>
+        <base>SERVERS_LABEL</base>
+        <trans>où publier</trans>
+    </entry>
+    <entry>
+        <base>MX</base>
+        <trans>enregistrement MX</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>Nom d'utilisateur</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_LABEL</base>
+        <trans>Mot de passe</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>Pour le site Internet, vous pouvez choisir votre site primaire ou n'importe quelle ibaie comme contenu.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>Erreur : caractère manquant ou inattendu dans le nom de domaine {$domainName}. Le nom de domaine doit contenir une ou plusieurs lettres, chiffres, points et tirets. Le nouveau domaine n'a pas été créé.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>Erreur : caractère manquant ou inattendu dans la description du domaine : {$domainDesc}. Le nouveau domaine n'a pas été créé.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>Erreur :  le domaine est déjà utilisé. Le nouveau domaine n'a pas été créé.</trans>
+    </entry>
+    <entry>
+        <base>RESERVED_SECURE_DOMAIN_ERROR</base>
+        <trans>Erreur : domaine {$domainName} est le nom de domaine de votre système. Impossible d'avoir un domaine virtuel avec le même nom. Domaine non créé.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>Erreur : domaine {$domainName} réservé pour un serveur Web sécurisé pour le nom de domaine de votre système {$systemDomain}. Domaine non créé.</trans>
+    </entry>
+    <entry>
+        <base>RESERVED_SECURE_SYSTEM_DOMAIN_ERROR</base>
+        <trans>Domaine virtuel {$domainName} créé avec succès. Votre serveur Web redémarre. Les liens de cette page seront désactivés jusqu'à la fin du redémarrage du serveur Web.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Publication correcte du domaine {$domainName} sur {$dns}.</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>Modifier le domaine virtuel</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>Erreur : domaine {$domainName} inexistant.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Modification avec succès de la publication de  {$domainName} sur {$dns}.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Enlever la publication du domaine virtuel</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> Vous êtes sur le point de supprimer la publication du domaine virtuel {$domain} ({$domainDesc}). </p> <p> <b>Voulez-vous vraiment supprimer ce domaine?</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>Erreur : problème interne lors de la suppression de la publication de {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Suppression avec succès de {$domain} sur {$dns}.</trans>
+    </entry>
+    <entry>
+        <base>DYNDNS1</base>
+        <trans>dyndns.org adresse dynamique</trans>
+    </entry>
+    <entry>
+        <base>DYNDNS2</base>
+        <trans>dyndns.org adresse statique</trans>
+    </entry>
+    <entry>
+        <base>DYNDNS3</base>
+        <trans>dyndns.org adresse personalisée</trans>
+    </entry>
+    <entry>
+        <base>ZONEDIT</base>
+        <trans>ZoneEdit (zoneedit.com)</trans>
+    </entry>
+    <entry>
+        <base>EASYDNS</base>
+        <trans>EasyDNS (easydns.com)</trans>
+    </entry>
+    <entry>
+        <base>HAMMER</base>
+        <trans>Hammernode (hn.org) adresse dynamique</trans>
+    </entry>
+    <entry>
+        <base>DSLREPORTS</base>
+        <trans> dslreports.com moniteur d’hôtes dynamique</trans>
+    </entry>
+    <entry>
+        <base>EURODYNDNS</base>
+        <trans>eurodyndns.org adresses dynamiques</trans>
+    </entry>
+    <entry>
+        <base>ddclient</base>
+        <trans>Clients dynamiques</trans>
+    </entry>
+</lexicon>

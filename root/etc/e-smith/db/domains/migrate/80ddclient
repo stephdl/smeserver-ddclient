@@ -1,0 +1,64 @@
+{
+my $filename = '/home/e-smith/db/extras';
+return 0
+unless (-e $filename);
+
+
+use esmith::ConfigDB;
+
+##use db domain or die if doesn't exist
+my $domaindb = esmith::ConfigDB->open('/home/e-smith/db/domains');
+
+##use db extras or die if doesn't exist
+my $edb = esmith::ConfigDB->open($filename);
+
+    if (defined $edb)
+         {
+         foreach my $extradomain ($edb->get_all_by_prop(type=>'ddhost'))
+              {
+    my $currentdom = $extradomain->key;
+    my $descddhost = $edb->get_prop("$currentdom", "desc") || "ddhost migrated domain";
+    my $dnsddhost = $edb->get_prop("$currentdom", "dns");
+    my $mxddhost = $edb->get_prop("$currentdom", "mx");
+    my $passwordddhost = $edb->get_prop("$currentdom", "password");
+    my $login = $edb->get_prop("$currentdom", "login");
+
+    $domaindb->new_record( "$currentdom" );
+    $domaindb->set_value( "$currentdom" , "domain" );
+    $domaindb->set_prop( "$currentdom" , "Description" , "$descddhost" );
+    $domaindb->set_prop( "$currentdom" , "dns" , "$dnsddhost" ) if defined $dnsddhost;
+    $domaindb->set_prop( "$currentdom" , "mx" , "$mxddhost") if defined $mxddhost;
+    $domaindb->set_prop( "$currentdom" , "password" , "$passwordddhost" ) if defined $passwordddhost;
+    $domaindb->set_prop( "$currentdom" , "login" , "$login" ) if defined $login;
+    # followings set defaults values as a domain pointing to Primary ibay
+    # as even if they are not configured they will point there !
+    # Nameservers are defined as internet, as they are dynamic domains,
+    # if admin wants to point as a localhost, he just has to do it in the manager
+    $domaindb->set_prop( "$currentdom" , "SystemPrimaryDomain" , "no" );
+    $domaindb->set_prop( "$currentdom" , "Removable" , "yes" );
+    $domaindb->set_prop( "$currentdom" , "Nameservers" , "internet" );
+    $domaindb->set_prop( "$currentdom" , "Content" , "Primary" );
+              }
+
+         foreach my $extradomain ($edb->get_all_by_prop(type=>'domain'))
+
+              {
+    my $currentdom = $extradomain->key;
+    # commented as we rather keep description already in domain
+    #my $descdomain = $edb->get_prop("$currentdom", "desc");
+    my $dnsdomain = $edb->get_prop("$currentdom", "dns");
+    my $mxdomain = $edb->get_prop("$currentdom", "mx");
+    my $passworddomain = $edb->get_prop("$currentdom", "password");
+    my $login = $edb->get_prop("$currentdom", "login");
+
+    #$domaindb->set_prop( "$currentdom" , "desc", "$descdomain" );
+    $domaindb->set_prop( "$currentdom" , "dns" , "$dnsdomain" ) if defined $dnsdomain;
+    $domaindb->set_prop( "$currentdom" , "mx" , "$mxdomain" ) if defined $mxdomain;
+    $domaindb->set_prop( "$currentdom" , "password" , "$passworddomain" ) if defined $passworddomain;
+    $domaindb->set_prop( "$currentdom" , "login" , "$login" ) if defined $login;
+              }
+
+system ("/bin/mv $filename /home/e-smith/db/extras-migrated");
+
+         }
+}

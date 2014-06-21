@@ -1,0 +1,23 @@
+#! /usr/bin/perl -w
+
+use esmith::Build::CreateLinks qw(:all);
+
+panel_link("ddclient", 'manager');
+
+service_link_enhanced("ddclient", "S65", "7");
+
+my $event = 'ddclient';
+ safe_symlink("restart", "root/etc/e-smith/events/$event/services2adjust/ddclient");
+ templates2events("/etc/ddclient.conf", $event);
+
+$event = 'domain-delete';
+ safe_symlink("restart", "root/etc/e-smith/events/$event/services2adjust/ddclient");
+ templates2events("/etc/ddclient.conf", $event);
+
+$event = 'domain-modify';
+ safe_symlink("restart", "root/etc/e-smith/events/$event/services2adjust/ddclient");
+ templates2events("/etc/ddclient.conf", $event);
+
+$event = 'post-upgrade';
+ templates2events("/etc/ddclient.conf", $event);
+ templates2events("/etc/ppp/ip-up.local", $event);

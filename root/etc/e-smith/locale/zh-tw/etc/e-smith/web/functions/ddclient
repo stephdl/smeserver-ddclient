@@ -1,0 +1,146 @@
+<lexicon lang="zh-tw">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>建立、移除或改變虛擬網域的發佈</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans>發佈在網路上的虛擬網域。</trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>系統上沒有虛擬網域。</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>現有虛擬網域列表</trans>
+    </entry>
+    <entry>
+        <base>PUBLICATION</base>
+        <trans>發佈</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>主站台</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>{$content} i-bay</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>發佈新的虛擬網域</trans>
+    </entry>
+    <entry>
+        <base>SERVERS_LABEL</base>
+        <trans>發佈到哪裡</trans>
+    </entry>
+    <entry>
+        <base>MX</base>
+        <trans>記錄 MX</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>登入發佈</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_LABEL</base>
+        <trans>密碼發佈</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>對於網站而言，您能選擇您的主要站台或任何 i-bay 以作為內容。</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>錯誤: 在網域名稱 {$domainName} 中含未知或缺少字元。網域名稱應該包含單一或多於一個的字元、數字、句號與減號。無法建立新網域。</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>錯誤: 在網域描述 {$domainDesc} 中含未知或缺少字元。無法建立新網域。</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>錯誤: 網域名稱 {$domainName} 正在使用中。無法建立新網域。</trans>
+    </entry>
+    <entry>
+        <base>RESERVED_SECURE_DOMAIN_ERROR</base>
+        <trans>錯誤：網域 {$domainName} 被保留為虛擬網域{$key}所提供的安全web伺服器。無法建立新網域。</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>錯誤：網域 {$domainName} 是本機使用的網域名稱。您不能使用相同名稱的虛擬網域。無法建立新網域！</trans>
+    </entry>
+    <entry>
+        <base>RESERVED_SECURE_SYSTEM_DOMAIN_ERROR</base>
+        <trans>錯誤：網域 {$domainName} 被保留為您系統網域名稱{$systemDomain}所提供的安全web伺服器。無法建立新網域。</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>成功發佈{$domain}在{$dns}上。</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>修正虛擬網域</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>錯誤: {$domainName}並非既有網域。</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>成功修正{$domain}在{$dns}上的發佈。</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>移除虛擬網域的發佈</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p>您即將移除網域{$domain} ({$domainDesc})在{$dns}上的發佈。</p> <p> <b>您確定真的要移除此網域的發佈？</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>錯誤：移除{$domain}的發佈時發生內部錯誤。</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>成功刪除{$domain}在{$dns}上的發佈。</trans>
+    </entry>
+    <entry>
+        <base>DYNDNS1</base>
+        <trans>dyndns.org 動態位址</trans>
+    </entry>
+    <entry>
+        <base>DYNDNS2</base>
+        <trans>dyndns.org 靜態位址</trans>
+    </entry>
+    <entry>
+        <base>DYNDNS3</base>
+        <trans>dyndns.org 客製位址</trans>
+    </entry>
+    <entry>
+        <base>ZONEDIT</base>
+        <trans>ZoneEdit (zoneedit.com)</trans>
+    </entry>
+    <entry>
+        <base>EASYDNS</base>
+        <trans>EasyDNS (easydns.com)</trans>
+    </entry>
+    <entry>
+        <base>HAMMER</base>
+        <trans>Hammernode (hn.org) 動態位址</trans>
+    </entry>
+    <entry>
+        <base>DSLREPORTS</base>
+        <trans>dslreports.com 動態主機監視</trans>
+    </entry>
+    <entry>
+        <base>EURODYNDNS</base>
+        <trans>eurodyndns.org 動態位址</trans>
+    </entry>
+    <entry>
+        <base>ddclient</base>
+        <trans>動態客戶端</trans>
+    </entry>
+</lexicon>

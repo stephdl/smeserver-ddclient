@@ -1,0 +1,146 @@
+<lexicon lang="zh-cn">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>创建、移除或更改虚拟域的发布</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans>发布在网络上的虚拟域</trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>系统上没有虚拟域。</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>当前虚拟域列表</trans>
+    </entry>
+    <entry>
+        <base>PUBLICATION</base>
+        <trans>发布</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>主站点</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>{$content} i-bay</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>发布新的虚拟域</trans>
+    </entry>
+    <entry>
+        <base>SERVERS_LABEL</base>
+        <trans>发布到哪里</trans>
+    </entry>
+    <entry>
+        <base>MX</base>
+        <trans>记录 MX</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>登陆发布</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_LABEL</base>
+        <trans>发布密码</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>对于web站点，您可以选择您的主站点或者i-bay作为网站的内容。</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>错误：在domain名称{$domainName}中缺少必要的字符。此domain名称应该包含一个或者多个字母、数字、句点和分隔号。未能创建新domain。</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>错误：在domain名称{$domainDesc}中缺少必要的字符。未能创建新域。</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>错误：domain {$domainName} 已在使用中。未能创建新域。</trans>
+    </entry>
+    <entry>
+        <base>RESERVED_SECURE_DOMAIN_ERROR</base>
+        <trans>错误：域 {$domainName} 被预留为虚拟域{$key}提供安全的web服务器。未能创建新域。</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>错误：域名 {$domainName} 是本机使用的域名。您不能创建一个与主机域名相同的虚拟域名。未能创建新域！</trans>
+    </entry>
+    <entry>
+        <base>RESERVED_SECURE_SYSTEM_DOMAIN_ERROR</base>
+        <trans>错误: 域 {$domainName} 被预留为系统域名{$systemDomain}提供安全的web服务器。未能创建新域。</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>已在{$dns}上发布域名 {$domainName} 。</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>修改虚拟域</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>错误: {$domainName} 已经存在。</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>成功地在{$dns}上修改已发布的域名{$domainName} 。</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>移除虚拟域的发布</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> You are about to remove the publication of domain {$domain} ({$domainDesc}) on {$dns}. </p> <p> <b>Are you sure you wish to remove this domain's publication ?</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>错误：移除域名{$domain}时发生内部错误。</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>已在{$dns}上删除域名 {$domain} 的发布。</trans>
+    </entry>
+    <entry>
+        <base>DYNDNS1</base>
+        <trans>dyndns.org 动态地址</trans>
+    </entry>
+    <entry>
+        <base>DYNDNS2</base>
+        <trans>dyndns.org 静态地址</trans>
+    </entry>
+    <entry>
+        <base>DYNDNS3</base>
+        <trans>dyndns.org 定制的地址</trans>
+    </entry>
+    <entry>
+        <base>ZONEDIT</base>
+        <trans>ZoneEdit (zoneedit.com)</trans>
+    </entry>
+    <entry>
+        <base>EASYDNS</base>
+        <trans>EasyDNS (easydns.com)</trans>
+    </entry>
+    <entry>
+        <base>HAMMER</base>
+        <trans>Hammernode (hn.org) 动态地址</trans>
+    </entry>
+    <entry>
+        <base>DSLREPORTS</base>
+        <trans>dslreports.com 动态主机监视</trans>
+    </entry>
+    <entry>
+        <base>EURODYNDNS</base>
+        <trans>eurodyndns.org 动态地址</trans>
+    </entry>
+    <entry>
+        <base>ddclient</base>
+        <trans>动态客户端</trans>
+    </entry>
+</lexicon>
