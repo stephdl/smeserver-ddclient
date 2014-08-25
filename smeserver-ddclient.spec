@@ -12,7 +12,7 @@ Version: %{version}
 Release: %{release}%{?dist}
 License: GNU GPL version 2
 Group: SMEserver/addon
-Source: %{name}-%{version}.tar.xz
+Source: %{name}-%{version}.tar.gz
 BuildRoot: /var/tmp/%{name}-%{version}-%{release}-buildroot
 BuildRequires: e-smith-devtools
 Obsoletes: sme7-ddclient
