@@ -159,7 +159,7 @@
 		    
 		    $OUT .="login=".$login.", \\\n";
 		    $OUT .="password=".$password." \\\n";
-                    $OUT .="\@\n" if ( $dns eq 'NAMECHEAP' );
+                    $OUT .="\@ \\\n" if ( $dns eq 'NAMECHEAP' );
 
 		    $OUT .=$edom->key()."\n";
 		    $OUT .="##\n";

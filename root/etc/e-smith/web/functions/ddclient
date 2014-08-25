@@ -155,7 +155,7 @@ sub genServer ($$)
 		    'DNSPARK'	=> $fm->localise('DNSPARK'),
 		    'DYNHOST'	=> $fm->localise('DYNHOST'),
 		    'NOIP'	=> $fm->localise('NOIP'),
-		    'CHANGEIP'	=> $fm->localise('CHANGEIP')
+		    'CHANGEIP'	=> $fm->localise('CHANGEIP'),
                     'NAMECHEAP'  => $fm->localise('NAMECHEAP')
 
 		 );
