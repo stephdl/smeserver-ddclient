@@ -23,7 +23,7 @@ Requires: e-smith-formmagick
 AutoReqProv: no
 
 %changelog
-- Mon Aug 25 2014 stephane de Labrusse <stephdl@de-labrusse.fr> - 1.2.0-3.sme
+* Mon Aug 25 2014 stephane de Labrusse <stephdl@de-labrusse.fr> - 1.2.0-3.sme
 - Added the Namecheap protocol
 
 * Tue Jun 10 2014 stephane de Labrusse <stephdl@de-labrusse.fr> - 1.2.0-1.sme
