@@ -24,7 +24,7 @@ AutoReqProv: no
 
 %changelog
 * Mon Aug 25 2014 stephane de Labrusse <stephdl@de-labrusse.fr> - 1.2.0-3.sme
-- Added the Namecheap protocol
+- Added the Namecheap protocol [SME:8538]
 
 * Tue Jun 10 2014 stephane de Labrusse <stephdl@de-labrusse.fr> - 1.2.0-1.sme
 - Initial release to sme9contribs
