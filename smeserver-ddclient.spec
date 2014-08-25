@@ -4,7 +4,7 @@
 
 %define name smeserver-ddclient
 %define version 1.2.0
-%define release 2
+%define release 3
 
 Summary: ddclient panel for SME Server
 Name: %{name}
@@ -23,6 +23,9 @@ Requires: e-smith-formmagick
 AutoReqProv: no
 
 %changelog
+- Mon Aug 25 2014 stephane de Labrusse <stephdl@de-labrusse.fr> - 1.2.0-3.sme
+- Added the Namecheap protocol
+
 * Tue Jun 10 2014 stephane de Labrusse <stephdl@de-labrusse.fr> - 1.2.0-1.sme
 - Initial release to sme9contribs
 

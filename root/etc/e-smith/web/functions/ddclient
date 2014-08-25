@@ -156,13 +156,15 @@ sub genServer ($$)
 		    'DYNHOST'	=> $fm->localise('DYNHOST'),
 		    'NOIP'	=> $fm->localise('NOIP'),
 		    'CHANGEIP'	=> $fm->localise('CHANGEIP')
+                    'NAMECHEAP'  => $fm->localise('NAMECHEAP')
+
 		 );
     
     return esmith::cgi::genCell ($q, $q->popup_menu (-name    => 'dns',
 						     -values  => [
 						    	    'DYNDNS1','DYNDNS2','DYNDNS3','ZONEDIT',
 						    	    'EASYDNS','HAMMER','DSLREPORTS', 'EURODYNDNS',
-							    'DTDNS','LOOPIA','DNSPARK','DYNHOST','NOIP','CHANGEIP'
+							    'DTDNS','LOOPIA','DNSPARK','DYNHOST','NOIP','CHANGEIP','NAMECHEAP'
 								 ],
 						     -default => $curSetting,
 						     -labels  => \%Labels));

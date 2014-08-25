@@ -118,6 +118,13 @@
 			$pubserv='nic.changeip.com';
 			$protocol='dyndns2';
 		    }				
+
+                elsif( $dns eq 'NAMECHEAP' )
+                    {
+                        $explain='## NAMECHEAP (namecheap.com) dynamic addresses';
+                        $pubserv='dynamicdns.park-your-domain.com ';
+                        $protocol='namecheap';
+                    }
 		
 		if($pubserv ne '')
 		{
@@ -152,6 +159,8 @@
 		    
 		    $OUT .="login=".$login.", \\\n";
 		    $OUT .="password=".$password." \\\n";
+                    $OUT .="\@\n" if ( $dns eq 'NAMECHEAP' );
+
 		    $OUT .=$edom->key()."\n";
 		    $OUT .="##\n";
 		    $OUT .="##\n";
