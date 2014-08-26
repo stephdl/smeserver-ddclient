@@ -122,7 +122,7 @@
                 elsif( $dns eq 'NAMECHEAP' )
                     {
                         $explain='## NAMECHEAP (namecheap.com) dynamic addresses';
-                        $pubserv='dynamicdns.park-your-domain.com ';
+                        $pubserv='dynamicdns.park-your-domain.com';
                         $protocol='namecheap';
                     }
 		
@@ -159,9 +159,9 @@
 		    
 		    $OUT .="login=".$login.", \\\n";
 		    $OUT .="password=".$password." \\\n";
-                    #$OUT .=", \@ \\\n" if ( $dns eq 'NAMECHEAP' );
+                    $OUT .="\@\n" if ( $dns eq 'NAMECHEAP' );
 
-		    $OUT .=$edom->key()."\n";
+		    $OUT .=$edom->key()."\n" if ( $dns ne 'NAMECHEAP' );
 		    $OUT .="##\n";
 		    $OUT .="##\n";
 		}
