@@ -3,7 +3,7 @@
 # Name: Stephen Noble
 
 %define name smeserver-ddclient
-%define version 1.2.1
+%define version 1.0.1
 %define release 1
 
 Summary: ddclient panel for SME Server
@@ -17,13 +17,13 @@ BuildRoot: /var/tmp/%{name}-%{version}-%{release}-buildroot
 BuildRequires: e-smith-devtools
 Obsoletes: sme7-ddclient
 BuildArchitectures: noarch
-Requires: e-smith-release >= 9.0
+Requires: e-smith-release >= 8.0
 Requires: ddclient >= 3.8.1
 Requires: e-smith-formmagick
 AutoReqProv: no
 
 %changelog
-* Mon Aug 25 2014 stephane de Labrusse <stephdl@de-labrusse.fr> - 1.2.1-1.sme
+* Mon Aug 25 2014 stephane de Labrusse <stephdl@de-labrusse.fr> - 1.0.1-1.sme
 - Added the Namecheap protocol [SME:8538]
 - Added a db DeamonUpdate 
 - Added force ssl
