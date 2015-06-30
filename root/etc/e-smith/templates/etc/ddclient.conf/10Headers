@@ -1,20 +1,13 @@
     {
-<<<<<<< HEAD
-        my $deamonupdate = $ddclient{DeamonUpdate} || '300';
-=======
         my $deamonupdate = ${ddclient}{DeamonUpdate} || '300';
         my $ssl = ${ddclient}{SSL} || 'yes';
->>>>>>> master_devel
         $OUT .= qq(
 daemon=$deamonupdate                                    # check every $deamonupdate seconds
 syslog=yes                                      # log update msgs to syslog
 mail=admin                                      # mail update msgs to admin
 mail-failure=admin
 pid=/var/run/ddclient/ddclient.pid                      # record PID in file.
-<<<<<<< HEAD
-=======
 ssl=$ssl
->>>>>>> master_devel
 #);
     }
 
